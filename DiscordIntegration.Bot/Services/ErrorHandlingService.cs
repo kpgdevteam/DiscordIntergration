@@ -1,6 +1,6 @@
 namespace DiscordIntegration.Bot.Services;
 
-using Discord;
+using DSharpPlus.Entities;
 
 public static class ErrorHandlingService
 {
@@ -58,9 +58,9 @@ public static class ErrorHandlingService
         ? ErrorDescriptions[e]
         : ErrorDescriptions[ErrorCodes.Unspecified];
 
-    public static async Task<Embed> GetErrorEmbed(ErrorCodes errorCode, string extra = "") =>
+    public static async Task<DiscordEmbed> GetErrorEmbed(ErrorCodes errorCode, string extra = "") =>
         await EmbedBuilderService.CreateBasicEmbed(GetErrorMessage(errorCode),
             !string.IsNullOrEmpty(extra)
                 ? string.Format(GetErrorDescription(errorCode), $"\"{extra}\"")
-                : GetErrorDescription(errorCode).Replace("{0}", string.Empty) + "\n**Please report all bugs on Github.**", Color.Red);
+                : GetErrorDescription(errorCode).Replace("{0}", string.Empty) + "\n**Please report all bugs on Github.**", DiscordColor.Red);
 }

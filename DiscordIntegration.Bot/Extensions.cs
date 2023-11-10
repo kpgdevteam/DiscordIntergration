@@ -1,7 +1,7 @@
 namespace DiscordIntegration.Bot;
 
 using System.Text.RegularExpressions;
-using Discord.WebSocket;
+using DSharpPlus.Entities;
 
 public static class Extensions
 {
@@ -17,6 +17,10 @@ public static class Extensions
             "$1 $2" 
         );
     }
-    
-    public static string GetUsername(this SocketGuild guild, ulong userId) => !string.IsNullOrEmpty(guild.GetUser(userId)?.Username) ? guild.GetUser(userId).Username : $"Name unavailable. ({userId})";
+
+    public static async Task<string> GetUsernameAsync(this DiscordGuild guild, ulong userId)
+    {
+        var member = await guild.GetMemberAsync(userId);
+        return !string.IsNullOrEmpty(member?.Username) ? member.Username : $"Name unavailable. ({userId})";
+    }
 }

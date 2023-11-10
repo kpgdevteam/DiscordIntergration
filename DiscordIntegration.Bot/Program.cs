@@ -16,7 +16,7 @@ public static class Program
 
     public static void Main(string[] args)
     {
-        Log.Info(0, nameof(Main), $"Welcome to Discord Integration v{Assembly.GetExecutingAssembly().GetName().Version}!");
+        Console.WriteLine($"{0}, {nameof(Main)}, {$"Welcome to Discord Integration v{Assembly.GetExecutingAssembly().GetName().Version}!"}");
         if (args.Contains("--debug"))
             Config.Debug = true;
         
@@ -30,7 +30,7 @@ public static class Program
 
             if (Config.Debug)
             {
-                Log.Warn(0, nameof(Main), "Shutting down..");
+                Console.WriteLine($"{0}, {nameof(Main)}, {"Shutting down.."}");
                 Thread.Sleep(10000);
             }
         };
@@ -48,7 +48,7 @@ public static class Program
 
     private static async Task KeepAlive()
     {
-        Log.Debug(0, nameof(KeepAlive), "Keeping alive bots.");
+        Console.WriteLine($"{0}, {nameof(KeepAlive)}, {"Keeping alive bots."}");
         await Task.Delay(-1);
     }
 }

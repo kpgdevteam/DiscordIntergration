@@ -15,11 +15,9 @@ namespace DiscordIntegration.Bot.Services
     using System.Threading;
     using System.Threading.Tasks;
 
-    using Discord;
-
     using DiscordIntegration.API.EventArgs.Network;
     using DiscordIntegration.Dependency;
-
+    using DSharpPlus.Entities;
     using Newtonsoft.Json;
     using Newtonsoft.Json.Serialization;
 
@@ -155,8 +153,7 @@ namespace DiscordIntegration.Bot.Services
             if (isDisposed)
                 throw new ObjectDisposedException(GetType().FullName);
 
-            await bot.Client.SetStatusAsync(UserStatus.DoNotDisturb);
-            await bot.Client.SetActivityAsync(new Game("Waiting for connection..."));
+            await bot.Client.UpdateStatusAsync(new DiscordActivity("Waiting for connection...", ActivityType.Playing), UserStatus.DoNotDisturb);
             await Update(cancellationToken).ContinueWith(task => OnTerminated(this, new TerminatedEventArgs(task)), cancellationToken).ConfigureAwait(false);
         }
 
@@ -186,14 +183,14 @@ namespace DiscordIntegration.Bot.Services
             {
                 if (!IsConnected)
                 {
-                    Log.Debug(bot.ServerNumber, nameof(SendAsync), "Sending aborted, not connected.");
+                    Console.WriteLine($"{bot.ServerNumber}, {nameof(SendAsync)}, {"Sending aborted, not connected."}");
                     return;
                 }
                 
 
                 string serializedObject = JsonConvert.SerializeObject(data, JsonSerializerSettings);
 
-                Log.Debug(bot.ServerNumber, nameof(SendAsync), $"Sending {serializedObject}");
+                Console.WriteLine($"{bot.ServerNumber}, {nameof(SendAsync)}, {$"Sending {serializedObject}"}");
                 byte[] bytesToSend = Encoding.UTF8.GetBytes(serializedObject + '\0');
 
                 await TcpClient?.GetStream().WriteAsync(bytesToSend, 0, bytesToSend.Length, cancellationToken)!;
@@ -307,7 +304,7 @@ namespace DiscordIntegration.Bot.Services
 
             if (TcpClient is null)
             {
-                Log.Debug(bot.ServerNumber, nameof(ReceiveAsync), "Client is null, aborting.");
+                Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {"Client is null, aborting."}");
                 return;
             }
 
@@ -317,7 +314,7 @@ namespace DiscordIntegration.Bot.Services
             }
             catch (Exception e)
             {
-                Log.Error(bot.ServerNumber, nameof(ReceiveAsync), $"{TcpClient.Client.RemoteEndPoint} has disconnected.\n{e.Message}");
+                Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {$"{TcpClient.Client.RemoteEndPoint} has disconnected.\n{e.Message}"}");
                 TcpClient.Dispose();
                 cancellationToken.Cancel();
                 return;
@@ -342,11 +339,10 @@ namespace DiscordIntegration.Bot.Services
                     }
                     catch (Exception e)
                     {
-                        Log.Error(bot.ServerNumber, nameof(ReceiveAsync), $"{TcpClient.Client.RemoteEndPoint} has disconnected.\n{e.Message}");
+                        Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {$"{TcpClient.Client.RemoteEndPoint} has disconnected.\n{e.Message}"}");
                         cancellationToken.Cancel();
                         TcpClient.Dispose();
-                        await bot.Client.SetStatusAsync(UserStatus.DoNotDisturb);
-                        await bot.Client.SetActivityAsync(new Game("Waiting for connection..."));
+                        await bot.Client.UpdateStatusAsync(new DiscordActivity("Waiting for connection...", ActivityType.Playing), UserStatus.DoNotDisturb);
                         break;
                     }
                     
@@ -371,8 +367,8 @@ namespace DiscordIntegration.Bot.Services
                                     }
                                     catch (Exception)
                                     {
-                                        Log.Error(bot.ServerNumber, nameof(ReceiveAsync), $"Received unusable data. Clearing buffer.");
-                                        Log.Error(bot.ServerNumber, nameof(ReceiveAsync), receivedData);
+                                        Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {$"Received unusable data. Clearing buffer."}");
+                                        Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {receivedData}");
                                         totalReceivedData.Clear();
                                         continue;
                                     }
@@ -409,11 +405,10 @@ namespace DiscordIntegration.Bot.Services
                 }
                 catch (Exception e)
                 {
-                    Log.Error(bot.ServerNumber, nameof(ReceiveAsync), e.Message);
+                    Console.WriteLine($"{bot.ServerNumber}, {nameof(ReceiveAsync)}, {e.Message}");
                     cancellationToken.Cancel();
                     TcpClient.Dispose();
-                    await bot.Client.SetStatusAsync(UserStatus.DoNotDisturb);
-                    await bot.Client.SetActivityAsync(new Game("Waiting for connection..."));
+                    await bot.Client.UpdateStatusAsync(new DiscordActivity("Waiting for connection...", ActivityType.Playing), UserStatus.DoNotDisturb);
                     break;
                 }
             }
