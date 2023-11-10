@@ -1,0 +1,17 @@
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-x86/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-x64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-arm/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-armel/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-arm64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-mips64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/runtimes/linux-s390x/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/DiscordIntegration.Dependency.dll
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/dependencies/net472/DiscordIntegration.Dependency.pdb
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.csproj.AssemblyReference.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.AssemblyInfoInputs.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.AssemblyInfo.cs
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.csproj.CoreCompileInputs.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.csproj.CopyComplete
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.dll
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.pdb

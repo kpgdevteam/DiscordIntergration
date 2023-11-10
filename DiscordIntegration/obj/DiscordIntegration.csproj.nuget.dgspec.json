@@ -1,0 +1,128 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/DiscordIntegration.csproj": {}
+  },
+  "projects": {
+    "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj",
+        "projectName": "DiscordIntegration.Dependency",
+        "projectPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj",
+        "packagesPath": "/home/neil/.nuget/packages/",
+        "outputPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net472"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net472": {
+            "targetAlias": "net472",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net472": {
+          "targetAlias": "net472",
+          "dependencies": {
+            "Microsoft.Data.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.2, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/DiscordIntegration.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/DiscordIntegration.csproj",
+        "projectName": "DiscordIntegration",
+        "projectPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/DiscordIntegration.csproj",
+        "packagesPath": "/home/neil/.nuget/packages/",
+        "outputPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/neil/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj": {
+                "projectPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.2, )"
+            },
+            "Northwood.PluginAPI": {
+              "target": "Package",
+              "version": "[12.0.0-rc.5, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Threading.Tasks": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
+            "System.Threading.Tasks.Extensions": {
+              "target": "Package",
+              "version": "[4.5.4, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

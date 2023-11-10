@@ -1,0 +1,17 @@
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-x86/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-x64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-arm/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-armel/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-arm64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-mips64/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/runtimes/linux-s390x/native/libe_sqlite3.so
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/DiscordIntegration.dll
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/bin/Plugin/net48/DiscordIntegration.pdb
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.csproj.AssemblyReference.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.AssemblyInfoInputs.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.AssemblyInfo.cs
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.csproj.CoreCompileInputs.cache
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.csproj.CopyComplete
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.dll
+/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.pdb
