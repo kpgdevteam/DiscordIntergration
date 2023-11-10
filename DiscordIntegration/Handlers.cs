@@ -106,18 +106,6 @@ public static class Handlers
 
                 return RoleDamageTypeIDs.TryGetValue(id, out var output) ? output : -1;
             }
-            case Scp096DamageHandler scp096DamageHandler:
-            {
-                var id = scp096DamageHandler._attackType.ToString();
-
-                return Scp096DamageTypeIDs.TryGetValue(id, out var output) ? output : -1;
-            }
-            case Scp939DamageHandler scp939DamageHandler:
-            {
-                var id = scp939DamageHandler._damageType.ToString();
-
-                return Scp939DamageTypeIDs.TryGetValue(id, out var output) ? output : -1;
-            }
             default:
                 return -1;
         }
@@ -135,8 +123,6 @@ public static class Handlers
             FirearmDamageHandler firearmDamageHandler => firearmDamageHandler.Damage,
             UniversalDamageHandler universalDamageHandler => universalDamageHandler.Damage,
             ScpDamageHandler scpDamageHandler => scpDamageHandler.Damage,
-            Scp096DamageHandler scp096DamageHandler => scp096DamageHandler.Damage,
-            Scp939DamageHandler scp939DamageHandler => scp939DamageHandler.Damage,
             _ => -1
         };
 
@@ -198,9 +184,6 @@ public static class Handlers
     {
         if (state)
             player.ReferenceHub.characterClassManager.UserCode_CmdRequestHideTag();
-        else
-            player.ReferenceHub.characterClassManager.UserCode_CmdRequestShowTag(false);
-
     }
     
     public static Scp914KnobSetting GetNobSetting() => Scp914Controller.Singleton.Network_knobSetting;

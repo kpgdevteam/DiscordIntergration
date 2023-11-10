@@ -15,3 +15,16 @@
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.csproj.CopyComplete
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.dll
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/Debug/net472/DiscordIntegration.Dependency.pdb
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\dependencies\net472\runtimes\win-x86\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\dependencies\net472\runtimes\win-x64\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\dependencies\net472\runtimes\win-arm\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\dependencies\net472\DiscordIntegration.Dependency.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\dependencies\net472\DiscordIntegration.Dependency.pdb
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.csproj.AssemblyReference.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.AssemblyInfoInputs.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.AssemblyInfo.cs
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.csproj.CoreCompileInputs.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.csproj.CopyComplete
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.dll
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration.Dependency\obj\Debug\net472\DiscordIntegration.Dependency.pdb

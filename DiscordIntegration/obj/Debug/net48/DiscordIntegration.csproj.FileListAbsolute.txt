@@ -15,3 +15,16 @@
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.csproj.CopyComplete
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.dll
 /mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration/obj/Debug/net48/DiscordIntegration.pdb
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.csproj.AssemblyReference.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.GeneratedMSBuildEditorConfig.editorconfig
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.AssemblyInfoInputs.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.AssemblyInfo.cs
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.csproj.CoreCompileInputs.cache
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.dll
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.pdb
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\net48\runtimes\win-x86\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\net48\runtimes\win-x64\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\net48\runtimes\win-arm\native\e_sqlite3.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\net48\DiscordIntegration.dll
+C:\Kings Playground\Projects\DiscordIntergration\bin\Plugin\net48\DiscordIntegration.pdb
+C:\Kings Playground\Projects\DiscordIntergration\DiscordIntegration\obj\Debug\net48\DiscordIntegration.csproj.CopyComplete

@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj": {}
+    "C:\\Kings Playground\\Projects\\DiscordIntergration\\DiscordIntegration.Dependency\\DiscordIntegration.Dependency.csproj": {}
   },
   "projects": {
-    "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj": {
+    "C:\\Kings Playground\\Projects\\DiscordIntergration\\DiscordIntegration.Dependency\\DiscordIntegration.Dependency.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj",
+        "projectUniqueName": "C:\\Kings Playground\\Projects\\DiscordIntergration\\DiscordIntegration.Dependency\\DiscordIntegration.Dependency.csproj",
         "projectName": "DiscordIntegration.Dependency",
-        "projectPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/DiscordIntegration.Dependency.csproj",
-        "packagesPath": "/home/neil/.nuget/packages/",
-        "outputPath": "/mnt/BigHardBoi/Hello World/repos/NotMyPlugins/DiscordIntegration/DiscordIntegration.Dependency/obj/",
+        "projectPath": "C:\\Kings Playground\\Projects\\DiscordIntergration\\DiscordIntegration.Dependency\\DiscordIntegration.Dependency.csproj",
+        "packagesPath": "C:\\Users\\teamt\\.nuget\\packages\\",
+        "outputPath": "C:\\Kings Playground\\Projects\\DiscordIntergration\\DiscordIntegration.Dependency\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/neil/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\teamt\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net472"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -42,18 +49,12 @@
               "target": "Package",
               "version": "[7.0.0, )"
             },
-            "Microsoft.NETFramework.ReferenceAssemblies": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[1.0.2, )",
-              "autoReferenced": true
-            },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.2, )"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/7.0.101/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }
